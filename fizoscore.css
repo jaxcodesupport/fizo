@@ -1,0 +1,241 @@
+p, ul, li, h1, h2, h3, h4, h5, h6 {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+.roboto-thin {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.text-muted {
+font-size: 17px;
+}
+li, p {
+font-size: 19px;
+}
+h4 {
+color:#001058;
+text-transform: uppercase;
+}
+.navbar {
+background-color: #002f6c;
+color: white;
+}
+.nav-link {
+color:#ffffff;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.nav-link:hover {
+color: lightgray;  
+}
+/* Ensure active link remains white */
+.nav-link:active {
+color: #ffffff;
+}
+
+/* Ensure focused link remains white */
+.nav-link:focus {
+color: #ffffff;
+outline: none; /* Optionally remove the default browser focus outline */
+}
+
+/* Fix for hamburger menu links turning black */
+.navbar-dark .navbar-nav .nav-link {
+color: #ffffff; /* Ensure the links stay white */
+}
+
+.navbar-dark .navbar-nav .nav-link:visited {
+color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+color: lightgray;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+color: #ffffff;
+outline: none;
+}
+
+.roboto-light {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.roboto-regular {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.roboto-medium, strong {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.roboto-bold {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.roboto-black {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.roboto-thin-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.roboto-light-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.roboto-regular-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.roboto-medium-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.roboto-bold-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.roboto-black-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: italic;
+}
+.header {
+padding: 20px;
+background-color: #f8f9fa;
+text-align: center;
+}
+.score-section {
+text-align: center;
+}
+.gauge {
+width: 80%;
+margin: auto;
+}
+.fizo-score {
+font-size: 57px;
+color:#<?=$fizo_score_color?>;
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+.fizo-description {
+font-size: 44px;
+font-weight: bold;
+}
+.fizo-factors {
+margin-top: 20px;
+}
+.fizo-factor {
+margin-bottom: 15px;
+}
+.fizo-factor-title {
+font-weight: bold;
+}
+.sidebar {
+background-color: #f8f9fa;
+padding: 20px;
+border-radius: 10px;
+}
+.green-button {
+background-color: #28a745;
+color: white;
+border: none;
+padding: 10px 20px;
+margin-top: 10px;
+}
+.footer {
+background-color: #002f6c;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.whats-next-icon {
+margin-right: 10px;
+color: #28a745;
+}
+hr {
+margin:20px 0px;
+}
+.navbar-toggler {
+border-color: white; /* Optional: Makes the button border white */
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-sim {
+display: flex;
+justify-content: space-around;
+background-color: #f8f9fa;
+padding: 0px 0;
+}
+.navbar-sim ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+.navbar-sim li {
+flex: 1;
+text-align: center;
+}
+.navbar-sim a {
+display: block;
+padding: 10px;
+color: #007bff;
+text-decoration: none;
+}
+.navbar-sim a.ui-btn-active {
+background-color: #007bff;
+color: #fff;
+}
+.shadow {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.grow-button {
+transition: transform 0.2s ease;
+}
+
+.grow-button:hover {
+transform: scale(1.05);
+}
+.links a {
+text-decoration: underline; /* Adds underline to links */
+color: #007bff; /* Bootstrap link color (optional) */
+}
+
+.links a:hover {
+text-decoration: underline; /* Keeps underline on hover */
+}
